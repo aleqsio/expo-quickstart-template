@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-rea3-nativewind-ts-template",
-    "slug": "expo-rea3-nativewind-ts-template",
+    "name": "expo-quickstart-template",
+    "slug": "expo-quickstart-template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,9 +11,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "scheme": "expo-quickstart-template",
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -21,9 +20,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aleqsio.exporeanimatednativewindtypescripttemplate"
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     }
   }
