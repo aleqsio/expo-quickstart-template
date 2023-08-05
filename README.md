@@ -1,3 +1,5 @@
+![A graphic demonstrating the libraries used](hero.png "Hero image")
+
 # Expo quickstart template
 
 ### An opinionated starter template for creating Expo apps.
